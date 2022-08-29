@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+   <title>Ducky is Lost!</title> 
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="index.css"/> 
+   <style>
+        body {
+            margin: 0;
+        }
+        .container {
+            width: 100vw;
+            height: 100vh;
+
+            font-family: 'Poppins', sans-serif;
+            font-weight: 300;
+            font-size: 20px;
+           
+            display: grid;
+
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 50px 1fr 1fr 100px;
+            
+            gap: 10px;
+
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .container div {
+            padding: 10px;
+            border: 1px solid lightgrey
+
+        }
+
+        .header {
+            grid-column-start: 1;
+            grid-column-end: 4;
+            color: black;
+            font-size:x-large; 
+            font-weight: 800;
+        }
+
+        .content-large1 {
+            grid-row-start: 2;
+            grid-row-end: span 2;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            color: red;
+        }
+
+    </style>
+<body>
+   <marquee><img src="imagess/hundurogond.webp" width="350" height="350"></marquee>
+</body>
+</head>
+<body>
+ <div class="container"> 
+    <div class="header">My Rubber Duck, Ducky is Lost!</div>
+    <div class="content-large1">Please contact 911 if you see him!
+    </div>
+    <div class="content-large">Last seen taking a bath with siblings, dog, duckbert and pinkduck.</div>
+        
+    </div>
+
+ </div> 
+   
+</body>
+</html>
